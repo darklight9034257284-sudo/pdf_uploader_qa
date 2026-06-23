@@ -55,4 +55,3 @@ if uploaded_file is not None:
             results = vector_store.similarity_search(query, k=2)
             st.write("### Top Relevant Match:")
             st.write(results[0].page_content)
-#./.venv/bin/streamlit run llm.py
