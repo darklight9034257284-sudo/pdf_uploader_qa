@@ -29,4 +29,4 @@ EXPOSE 8501
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
 
 # Run Streamlit with production-ready flags
-ENTRYPOINT ["streamlit", "run", "llm.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["sh", "-c", "streamlit run llm.py --server.address=0.0.0.0 --server.port=${PORT:-8501}"]
