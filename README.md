@@ -2,6 +2,8 @@
 
 A Streamlit-based web application that allows users to upload a PDF file, processes its content into text chunks, generates vector embeddings using a Hugging Face model, and stores them in an in-memory Chroma DB for quick similarity-based semantic search.
 
+🌐 **Live Demo:** [nitin-pdf.streamlit.app](https://nitin-pdf.streamlit.app/)
+
 ---
 
 ## 🚀 Features
