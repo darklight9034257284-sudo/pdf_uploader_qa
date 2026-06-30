@@ -10,7 +10,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 
 load_dotenv()
-
+# 3. set your title 
 st.title("PDF to Chroma DB Vector Store")
 
 # 2. Render File Uploader 
